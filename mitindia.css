@@ -1,0 +1,136 @@
+*{
+  display:inline-block;
+  color:white;
+  vertical-align: top;
+  position:static;
+}
+body{
+  background-color:rgb(0, 0, 0);
+}
+.MAINBAR{
+  background-color:black;
+}
+.mainlogo{
+  height:80px;
+  width:500px;
+  position:relative;
+}
+form{
+  padding-left: 400px;
+  position:static;
+  padding-top:20px;
+}
+.searchimg{
+  height: 40px;
+  width:40px;
+  background-color: rgb(236, 235, 235);
+}
+.SearchBar::placeholder{
+  margin-left:20px;
+  position:fixed;
+}
+.TaskBar{
+  display:flex;
+  place-content: center;
+  position:static;
+  background-color: rgb(0, 0, 0);
+  margin-top:20px;
+}
+.btn{
+  background-color:rgb(212, 175, 0);
+  border-style: none;
+  position:relative;
+  margin-right:16px;
+}
+.btn:hover{
+  background-color:rgb(197, 182, 106);
+}
+.btn:active{
+  background-color:rgb(212, 175, 0); 
+}
+.d-block{
+  margin-top: 30px;
+  border-radius:50px;
+  height:400px;
+}
+.deptimgs{
+  display:flex;
+  margin-top:30px;
+  margin-left:2px;
+}
+.deptimg{
+  height:165px;
+  width:165px;
+  border-radius: 165px;
+  margin-right:0px;
+  animation:DEP 3s infinite;
+}
+@keyframes DEP{
+  0%{opacity:0.6;}
+  50%{opacity:1;}
+  100%{opacity:0.6;}
+}
+.dimg{
+  height:165px;
+  width:165px;
+  margin-left:35px;
+}
+.ThirdMainBar{
+  margin-top:100px;
+  margin-left:35px;
+  
+}
+.TMBImg{
+  margin-left:20px;
+  height:150px;
+  width:250px;
+  margin-top:5px;
+  border-radius:20px;
+}
+.TMBDiv{
+  width:250px;
+  margin-left:30px;
+  text-align:center;
+}
+.text{
+  width:600px;
+  text-align: justify;
+  margin-top:40px;
+  margin-left:40px;
+}
+.slide{
+  display:flex;
+}
+.Slideshow{
+  height:500px;
+  width:700px;
+  margin-left:30px;
+}
+#clock {
+  display: inline-block;
+  font-size: 65px;
+  color:rgb(212, 175, 0);
+  width: 500px;
+  margin-top: 0px;
+  position:static;
+  text-align: center;
+  border-radius: 20px;
+}
+.Current_Events{
+  position:static;
+  height:400px;
+  width:500px;
+  background-color: rgb(77, 75, 75);
+  border-radius: 30px;
+  display:inline-block;
+  margin-top:30px;
+  margin-left:12px;
+
+}
+.Foot{
+  width:1212px;
+  height:400px;
+  background-color: rgb(0, 0, 0);
+  margin-left:50px;
+  margin-top:40px;
+}
